@@ -12,6 +12,10 @@ hide_streamlit_style = """
             .st-emotion-cache-1y4p8pa {
             padding: 1rem 1rem 10rem !important;
             }
+            @media only screen and (max-width: 768px) {
+            .st-emotion-cache-90vs21 {
+            bottom: 20px !important;
+            }
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
