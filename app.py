@@ -9,8 +9,8 @@ hide_streamlit_style = """
             #MainMenu {display: none !important;}
             footer {display: none !important;}
             header {display: none !important;}
-            .element-container:first-child {
-            padding-top: 0 !important;
+            .st-emotion-cache-1y4p8pa {
+            padding: 1rem 1rem 10rem !important;
             }
             </style>
             """
