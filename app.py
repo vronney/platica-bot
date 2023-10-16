@@ -6,8 +6,9 @@ st.set_page_config(page_title="Platica Bot", page_icon=":robot_face:")
 # Hide Streamlit toolbar and footer
 hide_streamlit_style = """
             <style>
-            [data-testid="stToolbar"] {visibility: hidden !important;}
-            footer {visibility: hidden !important;}
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
