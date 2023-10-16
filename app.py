@@ -3,6 +3,8 @@ import openai
 import random
 import time
 
+st.set_page_config(page_title="Platica Bot", page_icon=":robot_face:")
+
 st.title("Platica Bot")
 
 # Set OpenAI API key from Streamlit secrets
