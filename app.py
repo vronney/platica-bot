@@ -9,6 +9,9 @@ hide_streamlit_style = """
             #MainMenu {display: none !important;}
             footer {display: none !important;}
             header {display: none !important;}
+            .element-container:first-child {
+            padding-top: 0 !important;
+            }
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
