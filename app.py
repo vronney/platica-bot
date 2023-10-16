@@ -1,7 +1,14 @@
 import streamlit as st
 import openai
-import random
-import time
+
+# Hide Streamlit toolbar and footer
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.set_page_config(page_title="Platica Bot", page_icon=":robot_face:")
 
