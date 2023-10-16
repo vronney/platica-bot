@@ -1,6 +1,8 @@
 import streamlit as st
 import openai
 
+st.set_page_config(page_title="Platica Bot", page_icon=":robot_face:")
+
 # Hide Streamlit toolbar and footer
 hide_streamlit_style = """
             <style>
@@ -9,8 +11,6 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-st.set_page_config(page_title="Platica Bot", page_icon=":robot_face:")
 
 st.title("Platica Bot")
 
