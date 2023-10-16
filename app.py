@@ -44,7 +44,3 @@ if prompt := st.chat_input("What is up?"):
             message_placeholder.markdown(full_response + "▌")
         message_placeholder.markdown(full_response)
     st.session_state.messages.append({"role": "assistant", "content": full_response})
-    st.session_state.chat_history.append(
-        [msg.copy() for msg in st.session_state.messages]
-    )
-    st.session_state.chat_history.append(st.session_state.messages[:])
